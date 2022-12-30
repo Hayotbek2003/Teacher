@@ -34,7 +34,7 @@
     /* padding: 10px; */
     background-color: gray;
     display: flex;
-    align-items: center; /*flex-start , center, flex-end*/
+    align-items: center;/*flex-start , center, flex-end*/
     justify-content:center ; /*start, center, end, space-beetwen, space-around, space-evenly*/
     
 }

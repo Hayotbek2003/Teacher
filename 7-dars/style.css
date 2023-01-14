@@ -1,0 +1,34 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+body{
+    padding: 150px;
+}
+div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width:100px;
+    height: 100px;
+    background-color:gray;
+    border-radius: 35px;
+    transition: width 2s linear 1s;
+    margin: 10px 0;
+    transition-property: inherit; */
+    /* transition-delay: .2s; /* kutip turish vaqti */
+    transition-timing-function:linear;
+    transition-duration: .5s;  /* animatsiya vaqti */ 
+}
+div p{
+    color: black;
+}
+div:active{
+    /* transform: rotateX(720deg)  translateX(250px); */
+    width: 200px;
+
+    background-color: brown;
+    
+}

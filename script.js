@@ -182,3 +182,27 @@ let arr2 = ['nok','banan']
 // res = arr.slice(3)
 
 console.log(arr)
+
+
+
+
+
+// lesson 8
+
+// if else shart operator
+
+let num = -10
+
+if ((num.length < 5 || num.length <= 3 ) && num.length >= 1) {
+    console.log("ok", num.length)
+}
+else if (num === 10 || num,length != 5){  // && va degani yani ikki tomonidagi ish ham amalga oshsa ,
+                                 //  || yoki degani bunda qaysoidur 1tasi bolsa boldi
+    
+    console.log("toq")
+}
+
+else{
+    console.log("toq")
+
+}

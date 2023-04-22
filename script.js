@@ -145,9 +145,9 @@
 // lesson 7
 // arr -> massivlar
 
-let arr,res
+// let arr,res
 
-arr  = ['nok','olma','banan','kiwi']
+// arr  = ['nok','olma','banan','kiwi']
 
 // length 
 // concat => bu arr.concat(arr2) 2ta arrni boglaydi
@@ -161,8 +161,8 @@ arr  = ['nok','olma','banan','kiwi']
 // elementni surip ozi kelip oladi
 // slice => qirqadi arr.slice(3); 3indexgacha qirqadi
 
-arr = [1,"olma",true,null,undefined]
-let arr2 = ['nok','banan']
+// arr = [1,"olma",true,null,undefined]
+// let arr2 = ['nok','banan']
 // res = arr.length
 
 // arr.push("flase")
@@ -181,28 +181,85 @@ let arr2 = ['nok','banan']
 
 // res = arr.slice(3)
 
-console.log(arr)
+// console.log(arr)
 
 
 
 
 
-// lesson 8
+// // lesson 8
 
-// if else shart operator
+// // if else shart operator
 
-let num = -10
+// let num = -10
 
-if ((num.length < 5 || num.length <= 3 ) && num.length >= 1) {
-    console.log("ok", num.length)
-}
-else if (num === 10 || num,length != 5){  // && va degani yani ikki tomonidagi ish ham amalga oshsa ,
-                                 //  || yoki degani bunda qaysoidur 1tasi bolsa boldi
+// if ((num.length < 5 || num.length <= 3 ) && num.length >= 1) {
+//     console.log("ok", num.length)
+// }
+// else if (num === 10 || num,length != 5){  // && va degani yani ikki tomonidagi ish ham amalga oshsa ,
+//                                  //  || yoki degani bunda qaysoidur 1tasi bolsa boldi
     
-    console.log("toq")
-}
+//     console.log("toq")
+// }
 
-else{
-    console.log("toq")
+// else{
+//     console.log("toq")
 
-}
+// }
+
+
+// lesson 9
+
+// for (i = 0; i < 10; i++) {
+//    console.log(i)
+//   }
+
+// let arr = ['a','b','c','d']
+
+// for (i = 0;i < arr.length;i++){
+//     console.log(arr[i])
+// }
+
+let a,b,c,d,n
+
+// task 7
+// a = 2
+// b = 10
+// c = 0
+// for (i=a; i < b; i++){
+//     c += i
+//     console.log(c)
+// }
+// console.log(c)
+
+
+// task 10
+
+// a = 5
+// b = 0
+// for (i = 1; i <= a;i++){
+//     b += 1/i
+//     console.log(b)
+// }
+
+
+
+//task 11
+
+// n = 2
+// b = 0
+// for (i = 0;i <= 999999;i++){
+//     if ((n + i) <= 2*n){
+//         b += (n + i)**2
+//     }
+//     else{
+//         console.log(b)
+//         break
+//     }
+// }
+
+// for(i = 1; i <= 100;i++){
+//     if (i % 5 === 0){
+//         console.log(i)
+//     }
+// }

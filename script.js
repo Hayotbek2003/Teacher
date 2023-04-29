@@ -263,3 +263,34 @@ let a,b,c,d,n
 //         console.log(i)
 //     }
 // }
+
+// n = 5
+// b = 1
+// for (i =1; i <= 5; i++){
+//     c = 1
+//     for(j = 1; j <= i; j++){
+//         c *= j
+//     }
+//     b *= c
+//     // console.log(c)
+// }
+// console.log(b)
+// 1 2 6 24 120
+
+// let i = 0
+ 
+// while (true) {
+//     i += 1
+//     if (i < 10){
+//         console.log("hello")
+//     }
+//     else{
+//         break
+//     }
+// }
+
+// while (i < 10){
+//     i += 1
+//     console.log(i)
+// }
+
